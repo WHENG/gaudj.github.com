@@ -82,12 +82,12 @@ h4{
 			    Main containers
 ***************************************************/
 #logo {
-width: 740px;
+width: 800px;
 margin: 20px auto;
 }
 #wrapper{
 		position:relative;
-		width:980px;
+		width:960px;
 		margin:0 auto;
 		text-align:left;
 		background-color:white;
