@@ -81,7 +81,7 @@ h4{
 /***************************************************
 			    Main containers
 ***************************************************/
-#container{
+#wrapper{
 		position:relative;
 		width:980px;
 		margin:0 auto;
@@ -92,4 +92,12 @@ h4{
 		-moz-box-shadow: 0 0 5px 5px #D8D8D8;
 		-webkit-box-shadow: 0 0 5px 5px #D8D8D8;
 		box-shadow: 0 0 5px 5px #D8D8D8;
+}
+#sidebar{
+	float: left;
+	width: 100px;
+}
+#main{
+	float: left;
+	width: 880;
 }
