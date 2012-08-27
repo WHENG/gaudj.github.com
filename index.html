@@ -1,15 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head>
-   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-</head>
-<body>
-    <div id="logo">
-	    <h1><a href="/">角落</a></h1>
-		<span id="tags">代码人生路！ ！ ！</span>
-	</div>
-	<div id="wrapper">
-	</div>
-</body>
-</html>
+---
 
+layout: default
+
+title: 角落-LifeAnt
+
+---
+
+<div>
+<ul class="posts">
+		{% for post in site.posts %}
+		<li><p class="date" cate="{{ post.categories }}">{{ post.date | date:"%Y-%m-%d" }}</p> <a href="{{ post.url }}">{{ post.title }}</a></li>
+		{% endfor %}
+</ul>
+</div>
